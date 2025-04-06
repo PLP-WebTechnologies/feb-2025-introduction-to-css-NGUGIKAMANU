@@ -1,0 +1,47 @@
+/* Element Selector: Base styling for the page */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    margin: 25px; /* Outer spacing */
+    padding: 15px; /* Inner spacing */
+    background-color: #f7f9fc; /* Subtle light blue-gray background */
+}
+
+/* Class Selector: Styling the main heading */
+.main-title {
+    color: #2c3e50; /* Dark slate color */
+    font-family: 'Georgia', serif; /* Elegant serif font */
+    font-size: 36px; /* Larger for emphasis */
+    text-align: center; /* Centered alignment */
+    margin-bottom: 20px; /* Space below */
+    border-bottom: 3px solid #3498db; /* Bold blue underline */
+}
+
+/* ID Selector: Styling the introductory paragraph */
+#intro-text {
+    color: #e74c3c; /* Vibrant red for attention */
+    font-size: 18px; /* Readable size */
+    padding: 12px; /* Inner spacing */
+    margin: 0 auto 25px; /* Centered with bottom spacing */
+    max-width: 600px; /* Controlled width */
+    line-height: 1.5; /* Improved readability */
+}
+
+/* Class Selector: Styling the image */
+.styled-image {
+    display: block; /* Block for centering */
+    margin: 20px auto; /* Centered with vertical spacing */
+    padding: 8px; /* Inner spacing around image */
+    border: 4px double #9b59b6; /* Purple double border for style */
+    max-width: 100%; /* Responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Class Selector: Styling the content box */
+.content-box {
+    background-color: #ecf0f1; /* Light gray background */
+    padding: 20px; /* Generous inner spacing */
+    margin: 20px auto; /* Centered with spacing */
+    border: 2px solid #34495e; /* Dark border */
+    font-family: 'Verdana', sans-serif; /* Different sans-serif font */
+    max-width: 700px; /* Controlled width */
+}
